@@ -9,14 +9,21 @@ hero_full_res: book_cotb_01_tjk_full.jpg
 hero_med_res: book_cotb_01_tjk_600.jpg
 hero_sml_res: book_cotb_01_tjk_450.jpg
 hero_desc: The Jaguar King novel cover
+excerpt: An ancient prophecy fuels a modern-day race to find one human woman born to command the magic of all shapechanging races.
+desc_oneline: An ancient prophecy fuels a modern-day race to find one human woman born to command the magic of all shapechanging races.
+desc_short: An ancient prophecy foretells of a human woman born to command the magic of all shapechanging races. Emma doesn’t know it yet, but she is the Caller of the Blood, and the king that controls her holds her power in his grasp. First he has to find her. Then he must possess her. But Emma has other plans.
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+__MYTH ~ MAGIC ~ SACRIFICE__
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+A world of blood and power, of impossible wonder and terrifying savagery. That’s the world Emma’s best friend Ricky comes from &mdash; a world he left behind when he fled to California. It’s not a world she ever wants to visit. Keeping Ricky’s secrets, as well as her own, is enough impossible wonder for one lifetime, and right now she’s way more concerned with finishing her veterinary internship, trying not to adopt a shaggy monster of a stray called Bruce, and breaking up with mister tall, rich and mysterious before things get super weird. 
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+But the past catches up &mdash; and so does destiny.
+
+An ancient prophecy foretells of a human woman born to command the magic of all shapechanging races. She is the Caller of the Blood, and the king that controls her holds her power in his grasp.
+
+__THE JAGUAR KING__
+
+First he has to find her. Then he must possess her.
+
+But Emma has other plans.

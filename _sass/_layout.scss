@@ -412,6 +412,24 @@
     width:         calc(65% - (#{$spacing-unit} / 2));
 }
 
+.book-detail-cta {
+    border: none;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    color: $background-color;
+    font-variant: small-caps;
+    cursor: pointer;
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0 0 0;
+    background-color: $brand-color; 
+    transition: 0.2s;
+    &:hover {
+        background-color: $brand-color-light;
+        transition: 0.2s;
+    } 
+}
+
 /*
 @include media-query($on-laptop) {
     .footer-col-1,

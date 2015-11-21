@@ -66,11 +66,13 @@
   </script>
 
   <script>
-  $(function(){
-      $('html, body').animate({
-          scrollTop: $('#post').offset().top          
-      }, 500);
-      return false;
+  $(document).ready(function() {
+    $(function(){
+        $('html, body').animate({
+            scrollTop: $('#post').offset().top          
+        }, 500);
+        return false;
+    });
   });
   </script>
 

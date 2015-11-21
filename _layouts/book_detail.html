@@ -12,6 +12,13 @@ layout: default
 	  <a class="image-popup-fit-width" href="{{ site.baseurl }}{{ page.hero_full_res | prepend: site.basebookimgurl }}">
 	  	<img src="{{ site.baseurl }}{{ page.hero_med_res | prepend: site.basebookimgurl}}" alt="{{ page.hero_desc }}" title="{{ page.hero_desc }}"/>
 	  </a>
+	  {% if page.cta_text %}
+      <a href="{{ page.cta_link }}">
+	  	<button class="book-detail-cta" />
+	  		{{ page.cta_text }}
+	  	</button>
+	  </a>
+	  {% endif %}
 	  </div>
 	  <div class="book-detail book-detail-col2">
 	    {{ content }}

@@ -9,6 +9,8 @@ hero_full_res: book_cotb_01_tjk_full.jpg
 hero_med_res: book_cotb_01_tjk_600.jpg
 hero_sml_res: book_cotb_01_tjk_450.jpg
 hero_desc: The Jaguar King novel cover
+cta_text: Buy Now on Amazon
+cta_link: "#"
 excerpt: An ancient prophecy fuels a modern-day race to find one human woman born to command the magic of all shapechanging races.
 desc_oneline: An ancient prophecy fuels a modern-day race to find one human woman born to command the magic of all shapechanging races.
 desc_short: An ancient prophecy foretells of a human woman born to command the magic of all shapechanging races. Emma doesn’t know it yet, but she is the Caller of the Blood, and the king that controls her holds her power in his grasp. First he has to find her. Then he must possess her. But Emma has other plans.

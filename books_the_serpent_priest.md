@@ -9,6 +9,7 @@ hero_full_res: book_cotb_04_tsp_full.jpg
 hero_med_res: book_cotb_04_tsp_600.jpg
 hero_sml_res: book_cotb_04_tsp_450.jpg
 hero_desc: The Serpent Priest novel cover
+cta_text: Coming Soon
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)

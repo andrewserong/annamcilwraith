@@ -12,7 +12,7 @@ email: info@annamcilwraith.com
 description: > # this means to ignore newlines until "baseurl:"
   Author of the Caller of the Blood and Wayward Heart series.
   The Jaguar King (Caller of the Blood Book I) is now available via Amazon.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/annamcilwraith" # the subpath of your site, e.g. /blog
 basebookimgurl: "/assets/images/books/"
 url: "http://www.annamcilwraith.com" # the base hostname & protocol for your site
 twitter_username: annamcilwraith

@@ -30,7 +30,7 @@
 		<div class="wrapper">
       <div class="site-title-section">
         <a class="site-title" href="{{ site.baseurl }}/">
-          <img src="/assets/images/site_brand_title.svg" alt="{{ site.name }}" title="{{ site.name }}" />  
+          <img src="{{ site.baseurl }}/assets/images/site_brand_title.svg" alt="{{ site.name }}" title="{{ site.name }}" />  
         </a>
         <p class="site-title-subtitle">
         Author of <a href="/books/caller-of-the-blood/">Caller of the Blood</a> and the <span class="grouping-wayward-heart"><a href="/books/wayward-heart/"><span class="lettering-wayward-heart">Wayward Heart</span></a> series</span>
@@ -42,7 +42,7 @@
 				{% if my_page.show_in_header != null %}
 				<a href="{{ my_page.url | prepend: site.baseurl }}">
 					<div class="header-book {% if my_page.title == page.title %} header-book-selected {% endif %}">
-						<img src="{{ site.basebookimgurl }}{{ my_page.hero_sml_res }}" alt="{{ my_page.title }} book cover." />
+						<img src="{{ site.baseurl }}{{ site.basebookimgurl }}{{ my_page.hero_sml_res }}" alt="{{ my_page.title }} book cover." />
 					</div>
 				</a>
 				{% endif %}

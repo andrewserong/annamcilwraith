@@ -10,8 +10,8 @@
 }
 
 .site-header-books {
-	background-image: url("/assets/images/site_header_background.jpg");
-	background-size: cover;
+	background-image: url("{{ site.baseurl }}/assets/images/site_header_background.jpg");
+   	background-size: cover;
 }
 
 .header-books {

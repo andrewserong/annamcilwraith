@@ -1,0 +1,68 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@{{ site.twitter_username }}" />
+  <meta name="twitter:creator" content="@{{ site.twitter_username }}" />
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  {% if page.title %}
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta name="twitter:title" content="{{ page.title }}" />
+  {% else %}
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+  {% endif %}
+
+  {% if page.excerpt %}
+  <meta name="description" content="{{ page.excerpt| strip_html | strip_newlines | truncate: 160 }}" />
+  <meta property="og:description" content="{{ page.excerpt| strip_html | strip_newlines | truncate: 160 }}" />
+  <meta name="twitter:description" content="{{ page.excerpt| strip_html | strip_newlines | truncate: 160 }}" />
+  {% else %}
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
+  {% endif %}
+
+  <meta name="author" content="{{ site.name }}" />
+
+  {% if page.hero_full_res %}
+  <meta property="og:image" content="{{ page.hero_full_res | prepend: site.basebookimgurl | prepend: site.url }}" />
+  <meta name="twitter:image" content="{{ page.hero_full_res | prepend: site.basebookimgurl | prepend: site.url }}" />
+  {% else %}
+  <meta property="og:image" content="{{ "author_headshot_full.jpg" | prepend: site.basebookimgurl | prepend: site.url }}" />
+  <meta property="twitter:image" content="{{ "author_headshot_full.jpg" | prepend: site.basebookimgurl | prepend: site.url }}" />
+  {% endif %}
+
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  
+  <!-- external resources -->
+  <link href='https://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css' />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+
+  <!-- custom JavaScript for this site -->
+  <script src="/assets/js/script.js"></script>
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-69814265-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+</head>

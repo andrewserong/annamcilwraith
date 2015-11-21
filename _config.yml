@@ -1,0 +1,34 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+name: Anna McIlwraith
+title: Anna McIlwraith
+email: info@annamcilwraith.com
+description: > # this means to ignore newlines until "baseurl:"
+  Author of the Caller of the Blood and Wayward Heart series.
+  The Jaguar King (Caller of the Blood Book I) is now available via Amazon.
+baseurl: "" # the subpath of your site, e.g. /blog
+basebookimgurl: "/assets/images/books/"
+url: "http://www.annamcilwraith.com" # the base hostname & protocol for your site
+twitter_username: annamcilwraith
+github_username:  annamcilwraith
+
+# Footer links, based on Jekyll Now (https://github.com/barryclark/jekyll-now/)
+
+social-media-links:
+  facebook: annamcilwraithauthor
+  github: annamcilwraith
+  instagram: annamcilwraith
+  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  twitter: annamcilwraith
+  tumblr: annamcilwraith
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
+
+# Build settings
+markdown: kramdown

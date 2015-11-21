@@ -9,8 +9,8 @@ layout: default
 
   <div class="book-detail-wrapper">
 	  <div class="book-detail book-detail-col1">
-	  <a class="image-popup-fit-width" href="{{ page.hero_full_res | prepend: site.basebookimgurl }}">
-	  	<img src="{{ page.hero_med_res | prepend: site.basebookimgurl}}" alt="{{ page.hero_desc }}" title="{{ page.hero_desc }}"/>
+	  <a class="image-popup-fit-width" href="{{ site.baseurl }}{{ page.hero_full_res | prepend: site.basebookimgurl }}">
+	  	<img src="{{ site.baseurl }}{{ page.hero_med_res | prepend: site.basebookimgurl}}" alt="{{ page.hero_desc }}" title="{{ page.hero_desc }}"/>
 	  </a>
 	  </div>
 	  <div class="book-detail book-detail-col2">

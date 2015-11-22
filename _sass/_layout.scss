@@ -428,8 +428,10 @@
     border: none;
     font-family: $base-font-family;
     font-size: $base-font-size;
+    font-weight: 700;
     color: $background-color;
     font-variant: small-caps;
+    letter-spacing: 1px;
     cursor: pointer;
     width: 100%;
     padding: 0.5em;

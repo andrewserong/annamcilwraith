@@ -16,7 +16,7 @@ layout: default
 		  </a>
 		</div>
 	  {% if page.cta_text %}
-      <a href="{{ page.cta_link }}">
+      <a href="{% if page.cta_link %}{{ page.cta_link }}{% else %}#post{% endif %}">
 	  	<button class="book-detail-cta" />
 	  		{{ page.cta_text }}
 	  	</button>

@@ -17,7 +17,7 @@ desc_short: An ancient prophecy foretells of a human woman born to command the m
 hero_col: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wgARCAAGAAQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//aAAwDAQACEAMQAAABhwX/AP/EABYQAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAgBAQABBQLSX//EABYRAQEBAAAAAAAAAAAAAAAAAAEAIf/aAAgBAwEBPwFxv//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQIBAT8Bf//EABYQAAMAAAAAAAAAAAAAAAAAAAAyof/aAAgBAQAGPwJaf//EABgQAAIDAAAAAAAAAAAAAAAAAAARAUFR/9oACAEBAAE/IYaVNn//2gAMAwEAAgADAAAAEPP/xAAXEQEAAwAAAAAAAAAAAAAAAAABABGx/9oACAEDAQE/EDYGz//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/EK//xAAWEAEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQEAAT8QSLhiP//Z
 ---
 
-__MYTH ~ MAGIC ~ SACRIFICE__
+__MYTH &middot; MAGIC &middot; SACRIFICE__
 
 A world of blood and power, of impossible wonder and terrifying savagery. That’s the world Emma’s best friend Ricky comes from &mdash; a world he left behind when he fled to California. It’s not a world she ever wants to visit. Keeping Ricky’s secrets, as well as her own, is enough impossible wonder for one lifetime, and right now she’s way more concerned with finishing her veterinary internship, trying not to adopt a shaggy monster of a stray called Bruce, and breaking up with mister tall, rich and mysterious before things get super weird. 
 

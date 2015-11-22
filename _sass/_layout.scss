@@ -159,16 +159,7 @@
         display: inline;
     }
 
-    @include media-query($on-palm) {
-        float: none;
-        text-align: center;
-
-        .page-link {
-            margin: 0 10px;
-            &:not(:last-child) {
-                margin-right: 10px;
-            }
-        }
+    @include media-query($on-laptop) {
         .social-media-links {
             // display: block;
             display: none;
@@ -178,6 +169,19 @@
             .fa {
                 padding: 0.5em;
                 font-size: 20px;
+            }
+        }
+    }
+
+    @include media-query($on-palm) {
+        float: none;
+        width: 100%;
+        text-align: center;
+
+        .page-link {
+            margin: 0 10px;
+            &:not(:last-child) {
+                margin-right: 10px;
             }
         }
         .trigger {
@@ -535,6 +539,52 @@
 /**********************************************************************************
  * Mailchimp Sign-up
  *********************************************************************************/
+
+#mc_embed_signup_slimline {
+    form {
+        display: inline;
+        float: left;
+        line-height: 56px;
+        border: none;
+        width: 50%;
+    }
+    input {
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        display: inline;
+    }
+
+    input[type="email"] {
+        background-color: lighten($background-color, 5%);
+        font-family: $base-font-family;
+        font-size: 16px;
+        color: $text-color;
+        margin: 0.5em auto 0 auto;
+        padding: ($spacing-unit / 8) ($spacing-unit / 4);
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+        max-width: 150px;
+        border: none;
+    }
+    input[type="submit"] {
+        border: none;
+        background: desaturate( $brand-color, 20% );
+        font-family: $base-font-family;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: $background-color;
+        padding: ($spacing-unit / 8) ($spacing-unit / 4);
+        margin-left: $spacing-unit / 4;
+        font-variant: small-caps;
+        cursor: pointer;
+    }
+    @include media-query($on-palm) {
+        display: none;
+    }
+}
+
 
 #mc_embed_signup {
     background-color: $background-color;

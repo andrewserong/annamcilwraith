@@ -132,8 +132,9 @@ function smoothScrollToTitle() {
 	if (resumeSession) {
 		$(function() {
 		    $('html, body').animate({
-	            scrollTop: $('#post').offset().top          
-	        }, 500);
+	            scrollTop: $('#post').offset().top,
+	            easing: 'swing'
+	        }, 750);
         	return false;
 		});
     }
@@ -149,7 +150,8 @@ function smoothScrollToTitle() {
 	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 	      if (target.length) {
 	        $('html,body').animate({
-	          scrollTop: target.offset().top
+	          scrollTop: target.offset().top,
+	          easing: 'swing'
 	        }, 500);
 	        return false;
 	      }

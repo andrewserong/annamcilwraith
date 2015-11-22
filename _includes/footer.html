@@ -2,39 +2,63 @@
 
   <div class="wrapper">
 
+  <!--
     <h2 class="footer-heading">{{ site.title }}</h2>
+    <hr class="separator"/>
+    -->
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+        <a href="/about/"><h2 class="footer-heading">About</h2></a>
+        <p>{{ site.description }}</p>
       </div>
-
       <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
+        <a href="/books/"><h2 class="footer-heading">Books</h2></a>
+        {% include book-list.html %}
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+        <a href="http://annamc.com/news"><h2 class="footer-heading">Follow Anna</h2></a>
+        {% include footer-social-media-list.html %}
+      </div>
+
+      <div class="footer-col footer-col-4">
+        
+
+        <!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="//annamcilwraith.us12.list-manage.com/subscribe/post?u=cfb5d729030b1724bdda2bed5&amp;id=2b8865c8a0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+  <h2>Sign-up for news</h2>
+<div class="mc-field-group">
+  <label for="mce-EMAIL">Email Address </label>
+  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+  <div id="mce-responses" class="clear">
+    <div class="response" id="mce-error-response" style="display:none"></div>
+    <div class="response" id="mce-success-response" style="display:none"></div>
+  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cfb5d729030b1724bdda2bed5_2b8865c8a0" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button book-detail-cta"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
       </div>
     </div>
-
+    <!--
+    <div>
+      <ul class="contact-list">
+        <li>{{ site.title }}</li>
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+      </ul>
+    </div>
+    -->
     <div class="copyright-notice">
-      <a href="/credits/">Credits &amp; Acknowledgements</a>
+      <a href="/credits/">
+        <h2 class="footer-heading">Credits &amp; Acknowledgements</h2>
+      </a>
     </div>
 
   </div>

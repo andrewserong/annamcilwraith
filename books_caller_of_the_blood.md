@@ -3,6 +3,8 @@ layout: page
 title: Caller of the Blood
 permalink: /books/caller-of-the-blood/
 show_in_books: true
+page_rank: 0
+is_parent: true
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)

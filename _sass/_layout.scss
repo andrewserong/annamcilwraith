@@ -256,6 +256,15 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    i {
+        width: 20px;
+        text-align: center;
+    }
 }
 
 .footer-col-wrapper {
@@ -269,6 +278,10 @@
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+    a h2 {
+        //color: lighten($brand-color, 20%);
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
 }
 
 .footer-col-1 {
@@ -282,10 +295,18 @@
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
+.footer-col-4 {
+    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    width:         calc(25% - (#{$spacing-unit} / 2));
+    max-width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    max-width:         calc(25% - (#{$spacing-unit} / 2));
+}
+
+/*
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
@@ -296,19 +317,23 @@
     .footer-col-3 {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
+        max-width: 100%;
     }
 }
+*/
 
 @include media-query($on-palm) {
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
+        max-width: 100%;
     }
 }
 
 .copyright-notice {
-    
+    text-align: center;
+    opacity: 0.4;
 }
 
 /**********************************************************************************
@@ -466,4 +491,58 @@
             height: auto;
         }
     }
+}
+
+/**********************************************************************************
+ * Book List
+ *********************************************************************************/
+// Glyph reference: https://css-tricks.com/snippets/html/glyphs/
+
+.book-list {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .book-list-parent {
+    }
+    .book-list-child {
+        &:before {
+            content: "\2014";
+            color: $brand-color;
+            opacity: 0.4;
+        }
+    }
+}
+
+/**********************************************************************************
+ * Mailchimp Sign-up
+ *********************************************************************************/
+
+#mc_embed_signup {
+    background-color: $background-color;
+    padding: 1em;
+    
+    h2 {
+        font-size: $base-font-size;
+        margin: 0;
+    }
+
+    input[type="email"] {
+        background-color: lighten($background-color, 5%);
+        font-family: $base-font-family;
+        font-size: 16px;
+        color: $text-color;
+        margin: 0.5em auto 0 auto;
+        padding: $spacing-unit / 4;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+        border: none;
+    }
+    
 }

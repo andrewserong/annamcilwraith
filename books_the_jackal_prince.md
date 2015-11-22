@@ -5,6 +5,7 @@ permalink: /books/the-jackal-prince/
 show_in_books: true
 show_in_header: true
 page_rank: 2
+is_child: true
 hero_full_res: book_cotb_02_tjp_full.jpg
 hero_med_res: book_cotb_02_tjp_600.jpg
 hero_sml_res: book_cotb_02_tjp_450.jpg
@@ -19,6 +20,7 @@ hero_col: data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQY
 __GODS &middot; GREED &middot; BETRAYAL__
 
 A hidden stronghold in the heart of Egypt &mdash; a kingdom on the edge of ruin, ruled by fear and forgotten magic. 
-Sounds like a great place for a vacation, right? Emma Chase isn’t exactly thrilled by the idea, but the jackals will do anything to get their claws on her, for she is the Caller of the Blood, a human woman destined to command the magic of all shapechanging races &mdash; which is a teensy bit more complicated than it sounds. And while Emma and her weird assortment of friends, allies and protectors are safe on an enchanted farm in the California Mountains, the Jackal Prince’s invitation is too dangerous to refuse. Problem is, accepting it could be just as deadly, especially since Emma’s going to need the help of a powerful ancient with an unbreakable &mdash; and totally unfair &mdash; grudge against her.
+
+Sounds like a great place for a vacation, right? Emma Chase isn’t exactly thrilled by the idea, but the jackals will do anything to get their claws on her, for she is the Caller of the Blood, a human woman destined to command the magic of all shapechanging races &mdash; which is a _teensy_ bit more complicated than it sounds. And while Emma and her weird assortment of friends, allies and protectors are safe on an enchanted farm in the California Mountains, the Jackal Prince’s invitation is too dangerous to refuse. Problem is, accepting it could be just as deadly, especially since Emma’s going to need the help of a powerful ancient with an unbreakable &mdash; and totally unfair &mdash; grudge against her.
 
 Emma’s got a few tricks up her sleeve, but she’s human, and she can be broken. Somehow she’ll have to get her friends out of the jackal kingdom alive before the jackals kill her first &mdash; or worse, find a way to claim her power for their own. 

@@ -1,0 +1,58 @@
+<ul class="social-media-list">
+	{% if site.social-media-links.twitter %}
+	<li>	
+		<a href="https://www.twitter.com/{{ site.social-media-links.twitter }}"><i class="fa fa-twitter"></i>
+		Twitter
+		</a>
+	</li>
+	{% endif %}
+	{% if site.social-media-links.facebook %}
+	<li>
+		<a href="https://www.facebook.com/{{ site.social-media-links.facebook }}"><i class="fa fa-facebook"></i>
+		Facebook
+		</a>
+	</li>
+	{% endif %}
+	{% if site.social-media-links.instagram %}
+	<li>
+		<a href="https://instagram.com/{{ site.social-media-links.instagram }}"><i class="fa fa-instagram"></i>
+		Instagram
+		</a>
+	</li>
+	{% endif %}
+	{% if site.social-media-links.rss %}
+	<li>
+		<a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i>
+		Rss
+		</a>
+	</li>
+	{% endif %}
+	{% if site.social-media-links.youtube %}
+	<li>
+		<a href="https://youtube.com/{{ site.social-media-links.youtube }}"><i class="fa fa-youtube"></i>
+		Youtube
+		</a>
+	</li>
+	{% endif %}
+	{% if site.social-media-links.googleplus %}
+	<li>
+		<a href="https://plus.google.com/{{ site.social-media-links.googleplus }}"><i class="fa fa-googleplus"></i>
+		Google Plus
+		</a>
+	</li>
+	{% endif %}
+	{% if site.social-media-links.tumblr %}
+	<li>
+		<a href="http://blog.{{ site.social-media-links.tumblr }}.com/"><i class="fa fa-tumblr"></i>
+		Tumblr
+		</a>
+	</li>
+	{% endif %}
+	{% if site.social-media-links.amazon %}
+	<li>
+		<a href="https://www.amazon.com/{{ site.social-media-links.amazon }}"><i class="fa fa-amazon"></i>
+		Amazon
+		</a>
+	</li>
+	{% endif %}	
+</ul>

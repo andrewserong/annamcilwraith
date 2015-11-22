@@ -124,7 +124,22 @@ function buildPopups()
 	});
 }
 
+function smoothScrollToTitle() {
+	var resumeSession = false;
+	resumeSession = sessionStorage.getItem('sessionExists');
+	console.log(resumeSession);
+	if (resumeSession) {
+	    $('html, body').animate({
+            scrollTop: $('#post').offset().top          
+        }, 500);
+    }
+    else {
+    	sessionStorage.setItem('sessionExists', true);
+    }
+}
+
 $(document).ready(function() {
 	applyLetteringFixes();
 	buildPopups();
+	smoothScrollToTitle();
 });

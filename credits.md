@@ -33,4 +33,4 @@ This website makes use of the following awesome open source projects. Try them o
 -	[Lettering JS](http://letteringjs.com/)
 -	[Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
 
-Site was built and designed by [Andrew Serong](http://www.andrewserong.com). All content other than that listed above is &copy; 2015 Anna McIlwraith.
+Site was built and designed by [Andrew Serong](http://www.andrewserong.com), and is hosted on [GitHub Pages](https://pages.github.com/). The website's code is [open source](https://github.com/andrewserong/annamcilwraith/). All content other than that listed above is &copy; 2015 Anna McIlwraith.

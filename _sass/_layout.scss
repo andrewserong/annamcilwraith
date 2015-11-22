@@ -382,8 +382,19 @@
     font-variant: small-caps;
     margin: 0;
 
-    @include media-query($on-laptop) {
+    @include media-query($on-palm) {
         font-size: 36px;
+        text-align: center;
+    }
+}
+
+.post-sub-title {
+    font-size: 20px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    border-top: 1px solid rgba(255,255,255,0.4);
+    margin-top: 0.5em;
+    @include media-query($on-palm) {
         text-align: center;
     }
 }

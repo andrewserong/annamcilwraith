@@ -10,7 +10,7 @@ layout: default
 
   <div class="book-detail-wrapper">
 	  <div class="book-detail book-detail-col1">
-		<div class="book-image-container">
+		<div class="book-image-container" style="background: url('{{ page.hero_col }}'); background-size: cover;">
 		  <a class="image-popup-fit-width" href="{{ site.baseurl }}{{ page.hero_full_res | prepend: site.basebookimgurl }}">
 		  	<img src="{{ site.baseurl }}{{ page.hero_med_res | prepend: site.basebookimgurl}}" alt="{{ page.hero_desc }}" title="{{ page.hero_desc }}"/>
 		  </a>

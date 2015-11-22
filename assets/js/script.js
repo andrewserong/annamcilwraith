@@ -125,17 +125,37 @@ function buildPopups()
 }
 
 function smoothScrollToTitle() {
+	// smooth scroll to main post heading on page load
 	var resumeSession = false;
 	resumeSession = sessionStorage.getItem('sessionExists');
 	console.log(resumeSession);
 	if (resumeSession) {
-	    $('html, body').animate({
-            scrollTop: $('#post').offset().top          
-        }, 500);
+		$(function() {
+		    $('html, body').animate({
+	            scrollTop: $('#post').offset().top          
+	        }, 500);
+        	return false;
+		});
     }
     else {
     	sessionStorage.setItem('sessionExists', true);
     }
+    // make anchor links to ids on the same page smooth scroll
+    // from: https://css-tricks.com/snippets/jquery/smooth-scrolling/
+    $(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 500);
+	        return false;
+	      }
+	    }
+	  });
+	});
 }
 
 $(document).ready(function() {

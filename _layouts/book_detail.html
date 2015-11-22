@@ -10,9 +10,11 @@ layout: default
 
   <div class="book-detail-wrapper">
 	  <div class="book-detail book-detail-col1">
-	  <a class="image-popup-fit-width" href="{{ site.baseurl }}{{ page.hero_full_res | prepend: site.basebookimgurl }}">
-	  	<img src="{{ site.baseurl }}{{ page.hero_med_res | prepend: site.basebookimgurl}}" alt="{{ page.hero_desc }}" title="{{ page.hero_desc }}"/>
-	  </a>
+		<div class="book-image-container">
+		  <a class="image-popup-fit-width" href="{{ site.baseurl }}{{ page.hero_full_res | prepend: site.basebookimgurl }}">
+		  	<img src="{{ site.baseurl }}{{ page.hero_med_res | prepend: site.basebookimgurl}}" alt="{{ page.hero_desc }}" title="{{ page.hero_desc }}"/>
+		  </a>
+		</div>
 	  {% if page.cta_text %}
       <a href="{{ page.cta_link }}">
 	  	<button class="book-detail-cta" />

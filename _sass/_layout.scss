@@ -543,6 +543,9 @@
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
         border: none;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+        border-radius: 0;
     }
     
 }

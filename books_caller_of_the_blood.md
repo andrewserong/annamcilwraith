@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Caller of the Blood | series
+title: Caller of the Blood
 permalink: /books/caller-of-the-blood/
 show_in_books: true
 page_rank: 0

@@ -575,7 +575,7 @@
     }
     input[type="submit"] {
         border: none;
-        background: desaturate( $brand-color, 20% );
+        background: $brand-color;
         font-family: $base-font-family;
         font-size: 16px;
         font-weight: 700;

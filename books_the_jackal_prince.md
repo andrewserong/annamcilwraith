@@ -7,6 +7,7 @@ show_in_books: true
 show_in_header: true
 page_rank: 2
 is_child: true
+hero_twitter: book_cotb_02_tjp_twitter.jpg
 hero_full_res: book_cotb_02_tjp_full.jpg
 hero_med_res: book_cotb_02_tjp_600.jpg
 hero_sml_res: book_cotb_02_tjp_450.jpg

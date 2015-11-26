@@ -5,6 +5,8 @@ permalink: /books/caller-of-the-blood/
 show_in_books: true
 page_rank: 0
 is_parent: true
+hero_twitter: book_cotb_01_tjk_twitter.jpg
+hero_full_res: book_cotb_01_tjk_full.jpg
 excerpt: Emma Chase is the Caller of the Blood, a human woman destined to command the magic of all shapechanging races — if she can survive them.
 desc_oneline: Emma Chase is the Caller of the Blood, a human woman destined to command the magic of all shapechanging races — if she can survive them.
 desc_short: Enter a world where blood can speak, magic can die and gods walk among us, and an ancient prophecy foretells of one woman born to command the magic of all shapechanging races. She is the Caller of the Blood, and her power is either a weapon or a miracle-cure — depending on who commands her.

@@ -333,6 +333,12 @@
 */
 
 @include media-query($on-palm) {
+    .footer-col-wrapper {
+        font-size: $base-font-size;
+    }
+    .footer-heading {
+        font-size: $base-font-size;
+    }
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));

@@ -8,6 +8,7 @@ show_in_header: true
 page_rank: 4
 is_child: true
 parent: cotb
+hero_twitter: book_cotb_04_tsp_twitter.jpg
 hero_full_res: book_cotb_04_tsp_full.jpg
 hero_med_res: book_cotb_04_tsp_600.jpg
 hero_sml_res: book_cotb_04_tsp_450.jpg

@@ -29,12 +29,18 @@
 
   <meta name="author" content="{{ site.name }}" />
 
-  {% if page.hero_full_res %}
-  <meta property="og:image" content="{{ page.hero_full_res | prepend: site.basebookimgurl | prepend: site.url }}" />
+  {% if page.hero_twitter %}
+  <meta name="twitter:image" content="{{ page.hero_twitter | prepend: site.basebookimgurl | prepend: site.url }}" />
+  {% elsif page.hero_full_res %}
   <meta name="twitter:image" content="{{ page.hero_full_res | prepend: site.basebookimgurl | prepend: site.url }}" />
   {% else %}
-  <meta property="og:image" content="{{ "author_headshot_full.jpg" | prepend: site.basebookimgurl | prepend: site.url }}" />
   <meta property="twitter:image" content="{{ "author_headshot_full.jpg" | prepend: site.basebookimgurl | prepend: site.url }}" />
+  {% endif %}
+  
+  {% if page.hero_full_res %}
+  <meta property="og:image" content="{{ page.hero_full_res | prepend: site.basebookimgurl | prepend: site.url }}" />
+  {% else %}
+  <meta property="og:image" content="{{ "author_headshot_full.jpg" | prepend: site.basebookimgurl | prepend: site.url }}" />
   {% endif %}
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">

@@ -534,6 +534,83 @@
 }
 
 /**********************************************************************************
+ * Books Page
+ *********************************************************************************/
+
+.books-series-title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    font-size: 36px;
+}
+
+.books-book {
+    h1, h2, h3, h4 {
+        margin: 0;
+        padding: 0;
+    }
+    h4 {
+        border-top: 1px solid rgba(255,255,255,0.4);
+    }
+}
+
+.books-container {
+    font-size: $base-font-size;
+    color: $grey-color;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+    position: relative;
+    overflow: hidden;
+}
+
+.books-column {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.books-col1 {
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
+    
+    .img {
+        width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+        width:         calc(30% - (#{$spacing-unit} / 2));
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+    }
+}
+
+.books-col2 {
+    width: -webkit-calc(70% - (#{$spacing-unit} / 2));
+    width:         calc(70% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-palm) {
+    .books-col1 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+        .img {
+            width: 100%;
+            height: 160px;
+            position: inherit;
+            overflow: hidden;
+        }
+    }
+
+
+
+    .books-col2 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+
+/**********************************************************************************
  * Book List
  *********************************************************************************/
 // Glyph reference: https://css-tricks.com/snippets/html/glyphs/

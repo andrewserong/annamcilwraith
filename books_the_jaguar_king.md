@@ -7,6 +7,7 @@ show_in_books: true
 show_in_header: true
 page_rank: 1
 is_child: true
+parent: cotb
 hero_full_res: book_cotb_01_tjk_full.jpg
 hero_med_res: book_cotb_01_tjk_600.jpg
 hero_sml_res: book_cotb_01_tjk_450.jpg

@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: book_series
+id: cotb
 title: Caller of the Blood
+sub_title: <a href="#series-books">View books in series</a>
 permalink: /books/caller-of-the-blood/
 show_in_books: true
 page_rank: 0
@@ -22,9 +24,3 @@ Kings and queens, royals and rivalry, gods and monsters &mdash; all of it would 
 Enter a world where blood can speak, magic can die and gods walk among us. It’s a world Emma has to survive in now &mdash; but she wants more than survival. She wants to keep her friends safe, stay true to herself, and maybe do some good &mdash; all without getting her heart broken.
 
 But the odds are stacked against her.
-
-{% for my_page in site.pages %}
-    {% if my_page.title != null and my_page.show_in_books != null %}
-[{{ my_page.title }}]({{ my_page.url | prepend: site.baseurl }})
-    {% endif %}
-{% endfor %}

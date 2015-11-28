@@ -503,6 +503,18 @@
     }
 }
 
+.section-separator {
+    width: 100%;
+    text-align: center;
+    display: block;
+    img {
+        width: 50%;
+        height: auto;
+        border: none;
+        opacity: 0.2;
+    }
+}
+
 @include media-query($on-mobile) {
     .book-detail {
         float: none;
@@ -539,6 +551,28 @@
             color: $brand-color;
             opacity: 0.4;
         }
+    }
+}
+
+.series-book-list {
+    text-align: center;
+    h2 {
+        margin: 0;
+        padding: 0;
+        line-height: 24px;
+        text-transform: lowercase;
+        letter-spacing: 1px;
+        font-variant: small-caps;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        margin: 0;
+        padding: 0;
+        display: block;
     }
 }
 

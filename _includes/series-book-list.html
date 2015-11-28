@@ -1,0 +1,17 @@
+
+    	<div class="series-book-list" id="series-books">
+    	<h2>Books in reading order</h2>
+    	{% include separator-narrow.html %}
+        <ul>
+        {% assign pages = site.pages | sort: 'page_rank' %}
+        {% for my_page in pages %}
+          {% if my_page.title != null and my_page.show_in_books != null and my_page.parent == page.id %}
+          <li>
+            <a href="{{ my_page.url | prepend: site.baseurl }}">
+              {{ my_page.title }}
+            </a>
+          </li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+        </div>

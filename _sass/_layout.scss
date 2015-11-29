@@ -9,14 +9,18 @@
     position: relative;
 }
 
+
+
 @import "background-image";
 
-/*
 .site-header-books {
-	background-image: url("/assets/images/site_header_background.jpg");
-  	background-size: cover;
+	background-size: cover;
+	@include media-query-min($on-big) {
+		background-position-y: -80px;
+	}
+	
 }
-*/
+
 
 .header-books {
 	display: block;

@@ -55,7 +55,7 @@ $content-width:    960px;
 $on-mobile:		   480px;
 $on-palm:          600px;
 $on-laptop:        860px;
-
+$on-big:		  1440px;
 
 
 // Use media queries like this:
@@ -71,6 +71,11 @@ $on-laptop:        860px;
     }
 }
 
+@mixin media-query-min($device) {
+	@media screen and (min-width: $device) {
+		@content;
+	}
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)

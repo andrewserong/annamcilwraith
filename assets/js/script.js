@@ -181,12 +181,14 @@ function buildTumblr() {
 					if (data.response.posts[i].title && data.response.posts[i].date && data.response.posts[i].body) {
 						
 						$("#tumblrBlog").append(
+							"<article class='tumblr-blog-post'>" +
 							"<a href='" + data.response.posts[i].post_url + "'>" +
 							"<h2 class='tHead'>" + data.response.posts[i].title + "</h2>" +
-							"</a>"
+							"</a>" +
+							"<h3 class='tDate'>" + moment(data.response.posts[i].date).format("dddd, MMMM Do YYYY") + "</h3>" +
+							"<p class='tPara'>" + data.response.posts[i].body + "</p>" +
+							"</article>"
 							);
-						$("#tumblrBlog").append("<h3 class='tDate'>" + moment(data.response.posts[i].date).format("dddd, MMMM Do YYYY") + "</h3>" );
-						$("#tumblrBlog").append("<p class='tPara'>" + data.response.posts[i].body + "</p>");
 					}
 				}
 			}

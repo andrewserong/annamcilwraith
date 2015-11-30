@@ -185,7 +185,7 @@ function buildTumblr() {
 							"<a href='" + data.response.posts[i].post_url + "'>" +
 							"<h2 class='tHead'>" + data.response.posts[i].title + "</h2>" +
 							"</a>" +
-							"<h3 class='tDate'>" + moment(data.response.posts[i].date).format("dddd, MMMM Do YYYY") + "</h3>" +
+							"<h3 class='tDate'>" + moment.unix(data.response.posts[i].timestamp).format("dddd, MMMM Do YYYY") + "</h3>" +
 							"<p class='tPara'>" + data.response.posts[i].body + "</p>" +
 							"</article>"
 							);

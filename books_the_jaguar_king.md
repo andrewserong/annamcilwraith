@@ -25,7 +25,7 @@ __MYTH &middot; MAGIC &middot; SACRIFICE__
 
 A world of blood and power, of impossible wonder and terrifying savagery.
 
-That’s the world Emma’s best friend Ricky comes from &mdash; a world he left behind when he fled to California. It’s not a world she ever wants to visit. Keeping Ricky’s secrets, as well as her own, is enough impossible wonder for one lifetime, and right now she’s way more concerned with finishing her veterinary internship, trying not to adopt a shaggy monster of a stray called Bruce, and breaking up with mister tall, rich and mysterious before things get super weird. 
+That’s the world Emma’s best friend Ricky comes from &mdash; a world he left behind when he fled to California. It’s not a world she ever wants to visit. Keeping Ricky’s secrets, as well as her own, is enough impossible wonder for one lifetime, and right now she’s way more concerned with finishing her first year of veterinary medicine, trying not to adopt a shaggy monster of a stray called Bruce, and breaking up with mister tall, rich and mysterious before things get super weird. 
 
 But the past catches up &mdash; and so does destiny.
 

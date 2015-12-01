@@ -7,6 +7,7 @@ permalink: /books/caller-of-the-blood/
 show_in_books: true
 page_rank: 0
 is_parent: true
+show_series_book_list: true
 hero_twitter: book_cotb_01_tjk_twitter.jpg
 hero_full_res: book_cotb_01_tjk_full.jpg
 excerpt: Emma Chase is the Caller of the Blood, a human woman destined to command the magic of all shapechanging races — if she can survive them.

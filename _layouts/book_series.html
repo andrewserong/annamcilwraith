@@ -13,7 +13,9 @@ layout: default
 
   <div class="post-content">
     {{ content }}
-    {% include series-book-list.html %}
+    {% if page.show_series_book_list %}
+      {% include series-book-list.html %}
+    {% endif %}
   </div>
 
 </article>

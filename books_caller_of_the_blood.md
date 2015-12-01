@@ -22,7 +22,8 @@ Emma Chase is no stranger to tragedy, or magic &mdash; she lost almost everythin
 
 Emma’s determined to control her own destiny &mdash; but that gets more and more difficult, especially when it becomes apparent that she isn't just the metaphysical equivalent of a weapon of mass destruction &mdash; she’s also a miracle cure for the mysterious wasting illness slowly but surely eradicating shapechanger races the world over. 
 
-Kings and queens, royals and rivalry, gods and monsters &mdash; all of it would be enough to contend with, but Emma’s also managed to attract the attention of something else even more ruthless, bloody and terrifying. Something the shapechangers call soul-eater. 
+Kings and queens, royals and rivalry, gods and monsters &mdash; all of it would be enough to contend with, but Emma’s also managed to attract the attention of something else even more ruthless, bloody and terrifying. Something the shapechangers call soul-eater.
+
 Enter a world where blood can speak, magic can die and gods walk among us. It’s a world Emma has to survive in now &mdash; but she wants more than survival. She wants to keep her friends safe, stay true to herself, and maybe do some good &mdash; all without getting her heart broken.
 
 But the odds are stacked against her.

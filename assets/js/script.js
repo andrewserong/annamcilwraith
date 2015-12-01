@@ -99,11 +99,13 @@ Stuff specific to Anna McIlwraith site is below
 function applyLetteringFixes()
 {
 	// Fix 'Wayward Heart'
+	var text = $("h1:contains('Wayward Heart')").text();
+	$("h1:contains('Wayward Heart')").html("<span class='lettering-wayward-heart'>" + text + "</span");
 	$(".lettering-wayward-heart").lettering();
 	
 	// a
 	$(".lettering-wayward-heart .char2").css({
-		marginLeft: "-3px"
+		marginLeft: "-5px"
 	});
 	// y
 	$(".lettering-wayward-heart .char3").css({

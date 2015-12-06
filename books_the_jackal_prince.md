@@ -13,7 +13,8 @@ hero_full_res: book_cotb_02_tjp_full.jpg
 hero_med_res: book_cotb_02_tjp_600.jpg
 hero_sml_res: book_cotb_02_tjp_450.jpg
 hero_desc: The Jackal Prince novel cover
-cta_text: Coming Soon
+cta_text: Buy Now on Amazon
+cta_link: "http://www.amazon.com/Jackal-Prince-Caller-Blood-Book-ebook/dp/B019046Z82/"
 excerpt: Emma Chase is the Caller of the Blood, destined to command the magic of all shapechanging races — if the jackals don’t kill her first.
 desc_oneline: Emma Chase is the Caller of the Blood, destined to command the magic of all shapechanging races — if the jackals don’t kill her first.
 desc_short: A kingdom on the edge of ruin, ruled by fear and forgotten magic. The jackals will do anything to get their claws on Emma Chase, for she is the Caller of the Blood, a human woman destined to command the magic of all shapechanging races. That’s if the jackal prince doesn’t kill her — or worse.

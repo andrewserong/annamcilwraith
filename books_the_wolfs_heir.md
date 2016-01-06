@@ -13,7 +13,8 @@ hero_full_res: book_cotb_03_twh_full.jpg
 hero_med_res: book_cotb_03_twh_600.jpg
 hero_sml_res: book_cotb_03_twh_450.jpg
 hero_desc: The Wolf’s Heir novel cover
-cta_text: Coming Soon
+cta_text: Buy Now on Amazon
+cta_link: "http://www.amazon.com/Wolfs-Heir-Caller-Blood-Book-ebook/dp/B01A8SDK8C/"
 excerpt: Emma Chase, Caller of the Blood, destined to command the magic of all shapechanging races. But can she save the wolf’s heir — and herself?
 desc_oneline: Emma Chase, Caller of the Blood, destined to command the magic of all shapechanging races. But can she save the wolf’s heir — and herself?
 desc_short: When the Russian wolves beg Emma for help, she jumps at the chance to use her burgeoning powers as Caller of the Blood for good. But old enemies have been biding their time, and soon Emma will be pushed to the limits of her mind, body and soul. Can she save the wolf’s heir — and herself?

@@ -13,7 +13,8 @@ hero_full_res: book_cotb_04_tsp_full.jpg
 hero_med_res: book_cotb_04_tsp_600.jpg
 hero_sml_res: book_cotb_04_tsp_450.jpg
 hero_desc: The Serpent Priest novel cover
-cta_text: Coming Soon
+cta_text: Buy Now on Amazon
+cta_link: "http://www.amazon.com/Serpent-Priest-Caller-Blood-Book-ebook/dp/B01B2PHE14/"
 excerpt: War is coming on the heels of the Serpent Priest, and Emma Chase, Caller of the Blood, will risk everything to save the people she loves.
 desc_oneline: War is coming on the heels of the Serpent Priest, and Emma Chase, Caller of the Blood, will risk everything to save the people she loves.
 desc_short: Betrayed and beaten, but not broken — Emma Chase, Caller of the Blood, has been to Hell and back and she’ll never be the same. But that’s soon to be the least of her problems, because there’s a war coming, and the only one who knows how to stop it is Alexi, the Serpent Priest. Because he caused it.

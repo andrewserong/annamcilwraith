@@ -1,7 +1,7 @@
 ---
 layout: book_detail
 title: The Jaguar King
-sub_title: <a href="/books/caller-of-the-blood/">Caller of the Blood</a> · Book 1
+sub_title: <a href="/books/the-wild-rites-saga/">The Wild Rites Saga</a> · Book 1
 permalink: /books/the-jaguar-king/
 show_in_books: true
 show_in_header: true

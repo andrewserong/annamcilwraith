@@ -1,7 +1,7 @@
 ---
 layout: book_detail
 title: The Serpent Priest
-sub_title: <a href="/books/caller-of-the-blood/">Caller of the Blood</a> · Book 4
+sub_title: <a href="/books/the-wild-rites-saga/">The Wild Rites Saga</a> · Book 4
 permalink: /books/the-serpent-priest/
 show_in_books: true
 show_in_header: true

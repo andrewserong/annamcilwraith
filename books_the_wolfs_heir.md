@@ -1,7 +1,7 @@
 ---
 layout: book_detail
 title: The Wolf’s Heir
-sub_title: <a href="/books/caller-of-the-blood/">Caller of the Blood</a> · Book 3
+sub_title: <a href="/books/the-wild-rites-saga/">The Wild Rites Saga</a> · Book 3
 permalink: /books/the-wolfs-heir/
 show_in_books: true
 show_in_header: true

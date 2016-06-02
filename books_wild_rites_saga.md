@@ -3,7 +3,8 @@ layout: book_series
 id: cotb
 title: The Wild Rites Saga
 sub_title: <a href="#series-books">View books in series</a>
-permalink: /books/caller-of-the-blood/
+permalink: /books/the-wild-rites-saga/
+show_in_books: true
 page_rank: 0
 is_parent: true
 show_series_book_list: true

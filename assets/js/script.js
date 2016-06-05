@@ -143,7 +143,7 @@ function smoothScrollToTitle() {
 	if (resumeSession) {
 		$(function() {
 		    $('html, body').animate({
-	            scrollTop: $('#post').offset().top,
+	            scrollTop: $('#post').offset().top - 15,
 	            easing: 'swing'
 	        }, 750);
         	return false;

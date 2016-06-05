@@ -2,12 +2,14 @@
 layout: book_series
 id: wh
 title: Wayward Heart
-sub_title: <a href="#">Coming Soon</a>
+sub_title: <a href="#series-books">View books in series</a>
 permalink: /books/wayward-heart/
+show_in_books: true
 page_rank: 1000
 is_parent: true
-hero_twitter: book_cotb_01_tjk_twitter.jpg
-hero_full_res: book_cotb_01_tjk_full.jpg
+show_series_book_list: true
+hero_twitter: book_wh_01_hof_twitter.jpg
+hero_full_res: book_wh_01_hof_full.jpg
 excerpt: Romance. Violence. Room service. Welcome to the Wayward Heart.
 desc_oneline: Romance. Violence. Room service. Welcome to the Wayward Heart.
 desc_short: Romance. Violence. Room service. Welcome to the Wayward Heart.

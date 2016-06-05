@@ -376,8 +376,21 @@
 }
 
 .copyright-notice {
+    margin-top: 1em;
     text-align: center;
-    opacity: 0.4;
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline-block;
+            padding: 0.5em;
+        }
+    }
 }
 
 /**********************************************************************************
@@ -690,6 +703,66 @@
         margin: 0;
         padding: 0;
         display: block;
+    }
+}
+
+/**********************************************************************************
+ * Contact form
+ *********************************************************************************/
+
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    label {
+        display: block;
+    }
+    input, textarea {
+        display: block;
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        margin: 0.5em 0 0.5em 0;
+    }
+    textarea {
+        min-height: 100px;
+    }
+
+    input[type="email"], input[type="text"], textarea {
+        background-color: lighten($background-color, 15%);
+        font-family: $base-font-family;
+        font-size: 16px;
+        color: $text-color;
+        
+        padding: ($spacing-unit / 4) ($spacing-unit / 4);
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+        //width: 100%;
+        max-width: 500px;
+        border: none;
+    }
+    input[type="submit"] {
+        border: none;
+        background: $brand-color;
+        font-family: $base-font-family;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: $background-color;
+        margin-top: 1em;
+        //padding: ($spacing-unit / 8) ($spacing-unit / 4);
+        padding: 0.5em;
+        //margin-left: $spacing-unit / 4;
+        min-width: 150px;
+        font-variant: small-caps;
+        cursor: pointer;
+        transition: 0.2s;
+        &:hover {
+            background-color: $brand-color-light;
+            transition: 0.2s;
+        }
+        @include media-query($on-mobile) {
+            width: 100%;
+        }
     }
 }
 

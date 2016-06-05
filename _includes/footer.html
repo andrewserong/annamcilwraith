@@ -29,7 +29,7 @@
 <div id="mc_embed_signup">
 <form action="//annamcilwraith.us12.list-manage.com/subscribe/post?u=cfb5d729030b1724bdda2bed5&amp;id=2b8865c8a0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-  <h2>Sign-up for news</h2>
+  <h2>Sign up for news</h2>
 <div class="mc-field-group">
   <label for="mce-EMAIL">Email Address </label>
   <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="email@example.com">
@@ -55,8 +55,20 @@
     </div>
     -->
     <div class="copyright-notice">
-      <a href="/credits/">
-        <h2 class="footer-heading">Credits &amp; Acknowledgements</h2>
+
+
+      <ul>
+      {% assign pages = site.pages | sort: 'page_rank' %}
+        {% for my_page in pages %}
+          {% if my_page.title != null and my_page.footer_links != null %}
+          <li>
+            <a href="{{ my_page.url | prepend: site.baseurl }}">
+              {{ my_page.title }}
+            </a>
+          </li>
+          {% endif %}
+        {% endfor %}
+
       </a>
     </div>
 

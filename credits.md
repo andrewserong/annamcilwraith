@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Credits & Acknowledgements
+title: Credits
 permalink: /credits/
 hero_twitter: book_cotb_01_tjk_twitter.jpg
 hero_full_res: book_cotb_01_tjk_full.jpg
+footer_links: true
+page_rank: 10002
 ---
 
 ## Fonts

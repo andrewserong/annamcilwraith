@@ -2,6 +2,7 @@
 layout: book_detail
 title: The Jaguar King
 sub_title: <a href="/books/the-wild-rites-saga/">The Wild Rites Saga</a> · Book 1
+book_number: 1
 permalink: /books/the-jaguar-king/
 show_in_books: true
 show_in_header: true

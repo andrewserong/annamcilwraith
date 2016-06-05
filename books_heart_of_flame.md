@@ -2,6 +2,7 @@
 layout: book_detail
 title: Heart of Flame
 sub_title: <a href="/books/wayward-heart/">Wayward Heart</a> · Book 1
+book_number: 1
 permalink: /books/heart-of-flame/
 show_in_books: true
 show_in_header: true

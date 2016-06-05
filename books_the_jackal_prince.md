@@ -2,6 +2,7 @@
 layout: book_detail
 title: The Jackal Prince
 sub_title: <a href="/books/the-wild-rites-saga/">The Wild Rites Saga</a> · Book 2
+book_number: 2
 permalink: /books/the-jackal-prince/
 show_in_books: true
 show_in_header: true

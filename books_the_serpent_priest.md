@@ -2,6 +2,7 @@
 layout: book_detail
 title: The Serpent Priest
 sub_title: <a href="/books/the-wild-rites-saga/">The Wild Rites Saga</a> · Book 4
+book_number: 4
 permalink: /books/the-serpent-priest/
 show_in_books: true
 show_in_header: true

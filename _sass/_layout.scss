@@ -566,22 +566,24 @@
  *********************************************************************************/
 
 .books-series-title {
-    margin: 0;
     padding: 0;
-    text-align: center;
-    line-height: 24px;
+    line-height: 28px;
     letter-spacing: 1px;
     font-variant: small-caps;
-    font-size: 36px;
+    font-size: 28px;
 }
 
 .books-book {
     h1, h2, h3, h4 {
-        margin: 0;
+        margin: 0.5em 0 0.5em 0;
         padding: 0;
     }
     h4 {
-        border-top: 1px solid rgba(255,255,255,0.4);
+        margin-left: 1em;
+        color: darken($grey-color, 15%);
+        a {
+            //color: lighten($brand-color, 30%);
+        }
     }
 }
 

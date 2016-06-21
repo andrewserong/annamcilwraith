@@ -14,7 +14,8 @@ hero_full_res: book_wh_01_hof_full.jpg
 hero_med_res: book_wh_01_hof_600.jpg
 hero_sml_res: book_wh_01_hof_450.jpg
 hero_desc: Heart of Flame novel cover
-cta_text: Coming Soon
+cta_text: Pre-order on Amazon
+cta_link: "https://www.amazon.com/Heart-Flame-Anna-McIlwraith-ebook/dp/B01FE6Y6OK"
 excerpt: Romance. Violence. Room service. Welcome to the Wayward Heart.
 desc_oneline: Romance. Violence. Room service. Welcome to the Wayward Heart.
 desc_short: Romance. Violence. Room service. Welcome to the Wayward Heart.

@@ -19,7 +19,7 @@ cta_link: "http://www.amazon.com/Serpent-Priest-Caller-Blood-Book-ebook/dp/B01B2
 excerpt: War is coming on the heels of the Serpent Priest, and Emma Chase, Caller of the Blood, will risk everything to save the people she loves.
 desc_oneline: War is coming on the heels of the Serpent Priest, and Emma Chase, Caller of the Blood, will risk everything to save the people she loves.
 desc_short: Betrayed and beaten, but not broken — Emma Chase, Caller of the Blood, has been to Hell and back and she’ll never be the same. But that’s soon to be the least of her problems, because there’s a war coming, and the only one who knows how to stop it is Alexi, the Serpent Priest. Because he caused it.
-hero_col: data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgABgAEAwERAAIRAQMRAf/EAGEAAQAAAAAAAAAAAAAAAAAAAAYBAQEAAAAAAAAAAAAAAAAAAAEFEAACAAUFAAAAAAAAAAAAAAAREgATFAUVIQMzFhcRAAADCQAAAAAAAAAAAAAAAAAxEgERkaECIjITBP/aAAwDAQACEQMRAD8AH19u86bF3Dqbuk/ZGRAlnlp21MDqFHcKGzpViyRRH//Z
+hero_col: data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAMgAA/+4ADkFkb2JlAGTAAAAAAf/bAIQACAYGBgYGCAYGCAwIBwgMDgoICAoOEA0NDg0NEBEMDg0NDgwRDxITFBMSDxgYGhoYGCMiIiIjJycnJycnJycnJwEJCAgJCgkLCQkLDgsNCw4RDg4ODhETDQ0ODQ0TGBEPDw8PERgWFxQUFBcWGhoYGBoaISEgISEnJycnJycnJycn/8AAEQgABgAEAwEiAAIRAQMRAf/EAF4AAQEAAAAAAAAAAAAAAAAAAAAFAQEBAAAAAAAAAAAAAAAAAAAEBRAAAQQBBQAAAAAAAAAAAAAAEgAREwRRYcEyFBURAAIABwAAAAAAAAAAAAAAAADwESFhgTLSY//aAAwDAQACEQMRAD8AlS3ewMFj0mYzpnKPJsbaIiJe7cqz6ZUYn//Z
 ---
 
 __FATE &middot; HOPE &middot; REBELLION__

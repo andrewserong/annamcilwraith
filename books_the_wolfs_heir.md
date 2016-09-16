@@ -19,7 +19,7 @@ cta_link: "http://www.amazon.com/Wolfs-Heir-Caller-Blood-Book-ebook/dp/B01A8SDK8
 excerpt: Emma Chase, Caller of the Blood, destined to command the magic of all shapechanging races. But can she save the wolf’s heir — and herself?
 desc_oneline: Emma Chase, Caller of the Blood, destined to command the magic of all shapechanging races. But can she save the wolf’s heir — and herself?
 desc_short: When the Russian wolves beg Emma for help, she jumps at the chance to use her burgeoning powers as Caller of the Blood for good. But old enemies have been biding their time, and soon Emma will be pushed to the limits of her mind, body and soul. Can she save the wolf’s heir — and herself?
-hero_col: data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgABgAEAwERAAIRAQMRAf/EAF0AAQAAAAAAAAAAAAAAAAAAAAYBAQEAAAAAAAAAAAAAAAAAAAIFEAABAwQDAAAAAAAAAAAAAAAREhMVACFBAzIEFhEAAgAHAAAAAAAAAAAAAAAAABEhMVGxAhID/9oADAMBAAIRAxEAPwAXId/yiorfBwpQ9oAeAKnGX7nngZoLBziWtulLH//Z
+hero_col: data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAMgAA/+4ADkFkb2JlAGTAAAAAAf/bAIQACAYGBgYGCAYGCAwIBwgMDgoICAoOEA0NDg0NEBEMDg0NDgwRDxITFBMSDxgYGhoYGCMiIiIjJycnJycnJycnJwEJCAgJCgkLCQkLDgsNCw4RDg4ODhETDQ0ODQ0TGBEPDw8PERgWFxQUFBcWGhoYGBoaISEgISEnJycnJycnJycn/8AAEQgABgAEAwEiAAIRAQMRAf/EAF8AAQEAAAAAAAAAAAAAAAAAAAAGAQEBAAAAAAAAAAAAAAAAAAAEBRAAAQIEBwAAAAAAAAAAAAAAABITEVGhAjIDUwQUFRYRAAICAwAAAAAAAAAAAAAAAABh8CERMjP/2gAMAwEAAhEDEQA/AJp7M9QvjX9npq27eCa2V1gAB9PZlO31Uyf/2Q==
 ---
 
 __RITUAL &middot; POWER &middot; SURVIVAL__

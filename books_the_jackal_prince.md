@@ -19,7 +19,7 @@ cta_link: "http://www.amazon.com/Jackal-Prince-Caller-Blood-Book-ebook/dp/B01904
 excerpt: Emma Chase is the Caller of the Blood, destined to command the magic of all shapechanging races — if the jackals don’t kill her first.
 desc_oneline: Emma Chase is the Caller of the Blood, destined to command the magic of all shapechanging races — if the jackals don’t kill her first.
 desc_short: A kingdom on the edge of ruin, ruled by fear and forgotten magic. The jackals will do anything to get their claws on Emma Chase, for she is the Caller of the Blood, a human woman destined to command the magic of all shapechanging races. That’s if the jackal prince doesn’t kill her — or worse.
-hero_col: data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAPAAA/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoKDBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgABgAEAwERAAIRAQMRAf/EAF4AAQAAAAAAAAAAAAAAAAAAAAcBAQEAAAAAAAAAAAAAAAAAAAMFEAABAgYDAAAAAAAAAAAAAAATEhUAEVFhMgOiFAYRAAEDBQAAAAAAAAAAAAAAAAARITFBsRJSA//aAAwDAQACEQMRAD8AOu/4lqU2bltuBdBDzqoguSbQSPNSxn21sf/Z
+hero_col: data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAZABkAAD/7AARRHVja3kAAQAEAAAAMgAA/+4ADkFkb2JlAGTAAAAAAf/bAIQACAYGBgYGCAYGCAwIBwgMDgoICAoOEA0NDg0NEBEMDg0NDgwRDxITFBMSDxgYGhoYGCMiIiIjJycnJycnJycnJwEJCAgJCgkLCQkLDgsNCw4RDg4ODhETDQ0ODQ0TGBEPDw8PERgWFxQUFBcWGhoYGBoaISEgISEnJycnJycnJycn/8AAEQgABgAEAwEiAAIRAQMRAf/EAFsAAQEAAAAAAAAAAAAAAAAAAAAFAQEBAAAAAAAAAAAAAAAAAAAEBRAAAQMDBQAAAAAAAAAAAAAAEgAhMTITBBGRAxQVEQADAQEAAAAAAAAAAAAAAAAAIWExYv/aAAwDAQACEQMRAD8AiHm9gLXP6wV64twN5J4oaHRESFNpTfWw/9k=
 ---
 
 __GODS &middot; GREED &middot; BETRAYAL__
